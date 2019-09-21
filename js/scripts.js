@@ -2,46 +2,63 @@ $(document).ready(function () {
 
     /***************** Waypoints ******************/
 
+    // intro her
     $('.wp1').waypoint(function () {
         $('.wp1').addClass('animated fadeInLeft');
     }, {
         offset: '75%'
     });
+    
+    // intro him
     $('.wp2').waypoint(function () {
         $('.wp2').addClass('animated fadeInRight');
     }, {
         offset: '75%'
     });
+
+    // events - event 1
     $('.wp3').waypoint(function () {
         $('.wp3').addClass('animated fadeInLeft');
     }, {
         offset: '75%'
     });
+
+    // events - event 2
     $('.wp4').waypoint(function () {
         $('.wp4').addClass('animated fadeInRight');
     }, {
         offset: '75%'
     });
+
+    // events - event 3
     $('.wp5').waypoint(function () {
         $('.wp5').addClass('animated fadeInLeft');
     }, {
         offset: '75%'
     });
+
+    // events - event 4
     $('.wp6').waypoint(function () {
         $('.wp6').addClass('animated fadeInRight');
     }, {
         offset: '75%'
     });
+
+    // instagram
     $('.wp7').waypoint(function () {
         $('.wp7').addClass('animated fadeInUp');
     }, {
         offset: '75%'
     });
+
+    // intro her - small
     $('.wp8').waypoint(function () {
         $('.wp8').addClass('animated fadeInLeft');
     }, {
         offset: '75%'
     });
+
+    // intro him - small
     $('.wp9').waypoint(function () {
         $('.wp9').addClass('animated fadeInRight');
     }, {
@@ -184,23 +201,23 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Ram and Antara's Wedding",
+            title: "Tiffany and Josh's Wedding",
 
             // Event start date
-            start: new Date('Nov 27, 2017 10:00'),
+            start: new Date('May 2, 2020 16:00'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Nov 29, 2017 00:00'),
+            end: new Date('May 2, 2020 23:00'),
 
             // Event Address
-            address: 'ITC Fortune Park Hotel, Kolkata',
+            address: 'Figure Eight Yaght Club, Wilmington North Carolina',
 
             // Event Description
-            description: "We can't wait to see you on our big day. For any queries or issues contact Mr. Amit Roy at +91 9435021804 or +91 7086018971."
+            description: "Tiffany Donelle Cobb daughter of Lisa and Dean Painter and Joshua William Weil son of Theresa and Steven Weil will be married at Figure Eight Island Yaght Club on May 2nd 2020"
         }
     });
 

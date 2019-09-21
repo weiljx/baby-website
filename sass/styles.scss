@@ -252,7 +252,17 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 750px;
-  background: url('../img/hero-min.jpg') center center;
+  //background: url('../img/hero-min.jpg') center center;
+  //background: url('../img/beachPhotos/joshTiffBg1.jpeg') center center;
+  //background: url('../img/beachPhotos/IG-5-Fin.jpg') center center;
+  //background: url('../img/beachPhotos/beachDance1.jpg') center center;
+  //background: url('../img/beachPhotos/beachDance1BW.jpg') center center;
+  //background: url('../img/beachPhotos/beachDance2.jpg') center center;
+  //background: url('../img/beachPhotos/beachDance3.jpg') center center;
+  //background: url('../img/beachPhotos/beachDance3BW.jpg') center center;
+  background: url('../img/beachPhotos/beachSceneBW.jpg') center center;
+  //background: url('../img/beachPhotos/together.jpg') center center;
+  //background: url('../img/beachPhotos/togetherBW.jpg') center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -264,6 +274,12 @@ Hero
     bottom: 100px;
     left: 50%;
   }*/
+
+  .rsvp-btn {
+    color: #fff;
+    border-color: #e8ca6f;
+    background-color: #e8ca6f;
+  }
   .down-arrow a {
     color: $txt-light;
   }
@@ -282,7 +298,7 @@ Hero
   }
   .hero-content img {
     width: 55%;
-    margin-bottom: 12%;
+    margin-bottom: 2%;
   }
 }
 .navigation {
@@ -290,10 +306,12 @@ Hero
   position: fixed;
   width: 100%;
   z-index: 999;
+  background: rgba(0,0,0,.25);
 }
 .fixed {
   position: fixed;
-  background-color: rgba(55, 36, 40, .88);
+  //background-color: rgba(55, 36, 40, .88);
+  background-color: rgba(0, 0, 0, .5);
   z-index: 999;
   width: 100%;
 }
@@ -321,7 +339,8 @@ header {
     height: 19px;
   }
   ul.primary-nav {
-    margin: 0 0 0 75px;
+    //margin: 0 0 0 75px;
+    margin: 0 0 0 0;
     padding: 0;
 
     li {
@@ -404,6 +423,7 @@ Intro
   img {
     width: 100%;
     height: auto;
+    margin-top: 100px;
   }
 }
 #intro p {
@@ -726,12 +746,14 @@ Engagement Pics
 Embed video
 ========================================================================== */
 #video-bg {
-  height: 300px;
+  //height: 300px;
+  height: 420px;
 }
 #video-content {
   width: 100%;
   height: 100%;
-  padding-top: 100px;
+  //padding-top: 100px;
+  padding-top: 160px;
   position: relative;
   background: rgba(17, 17, 17, 0.5);
   text-align: center;
