@@ -948,11 +948,14 @@ body.modal-open {
   .hero {
     min-height: 500px;
     height: 500px;
+    background-position: 40% center;
   }
 
   .hero .hero-content img
-  {
-    top: -464px;
+  {    
+    top: -185px;
+    right: -62px;
+    width: 65% !important;
   }
 
   #intro img
